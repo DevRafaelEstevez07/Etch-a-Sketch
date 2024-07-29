@@ -1,0 +1,77 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    background-color: #02273E;
+}
+
+
+#container{
+    display: flex;
+    width: 480px;
+    flex-wrap: wrap;
+    border: 5px solid #222;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px #0003;
+}
+
+.cell{
+    width: 30px;
+    height: 30px;
+    background-color: lightgray;
+    border: 0.5px solid #ccc;
+    transition: background-color 0.2s;
+}
+
+.painted {
+    background-color: #02273E;
+    opacity: 1;
+}
+
+#header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 44px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#header button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#btnBlack{
+    background-color: #222;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#btnRandom{
+    background: linear-gradient(to bottom, #e81416,#ffa500,#faeb36,#79c314,#487de7,#4b369d,#70369d);
+    color: #222;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+
+#btnClear{
+    background-color: #222;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+}
